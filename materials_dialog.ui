@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1034</width>
+    <height>597</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QTableWidget" name="tableMaterials">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1031</width>
+     <height>391</height>
+    </rect>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>1031</width>
+     <height>16777215</height>
+    </size>
+   </property>
+   <property name="layoutDirection">
+    <enum>Qt::LeftToRight</enum>
+   </property>
+   <property name="rowCount">
+    <number>3</number>
+   </property>
+   <property name="columnCount">
+    <number>6</number>
+   </property>
+   <attribute name="horizontalHeaderDefaultSectionSize">
+    <number>168</number>
+   </attribute>
+   <attribute name="horizontalHeaderShowSortIndicator" stdset="0">
+    <bool>false</bool>
+   </attribute>
+   <row/>
+   <row/>
+   <row/>
+   <column>
+    <property name="text">
+     <string>ID</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Наименование</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Площадь поры</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Откл. от площади</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Пористость</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Откл. от пористости</string>
+    </property>
+   </column>
+   <item row="0" column="0">
+    <property name="text">
+     <string>0</string>
+    </property>
+   </item>
+   <item row="0" column="1">
+    <property name="text">
+     <string>Материал2</string>
+    </property>
+   </item>
+   <item row="0" column="2">
+    <property name="text">
+     <string>12.0</string>
+    </property>
+   </item>
+   <item row="0" column="3">
+    <property name="text">
+     <string>5.0</string>
+    </property>
+   </item>
+   <item row="0" column="4">
+    <property name="text">
+     <string>0.1</string>
+    </property>
+   </item>
+   <item row="0" column="5">
+    <property name="text">
+     <string>0.01</string>
+    </property>
+   </item>
+   <item row="1" column="0">
+    <property name="text">
+     <string>1</string>
+    </property>
+   </item>
+   <item row="1" column="1">
+    <property name="text">
+     <string>Материал3</string>
+    </property>
+   </item>
+   <item row="1" column="2">
+    <property name="text">
+     <string>9.0</string>
+    </property>
+   </item>
+   <item row="1" column="3">
+    <property name="text">
+     <string>8.0</string>
+    </property>
+   </item>
+   <item row="1" column="4">
+    <property name="text">
+     <string>0.15</string>
+    </property>
+   </item>
+   <item row="1" column="5">
+    <property name="text">
+     <string>0.01</string>
+    </property>
+   </item>
+   <item row="2" column="0">
+    <property name="text">
+     <string>2</string>
+    </property>
+   </item>
+   <item row="2" column="1">
+    <property name="text">
+     <string>Материал1</string>
+    </property>
+   </item>
+   <item row="2" column="2">
+    <property name="text">
+     <string>6.0</string>
+    </property>
+   </item>
+   <item row="2" column="3">
+    <property name="text">
+     <string>4.0</string>
+    </property>
+   </item>
+   <item row="2" column="4">
+    <property name="text">
+     <string>0.2</string>
+    </property>
+   </item>
+   <item row="2" column="5">
+    <property name="text">
+     <string>0.02</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QGroupBox" name="groupBox">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>400</y>
+     <width>1031</width>
+     <height>191</height>
+    </rect>
+   </property>
+   <property name="layoutDirection">
+    <enum>Qt::LeftToRight</enum>
+   </property>
+   <property name="title">
+    <string>Добавить запись</string>
+   </property>
+   <widget class="QLineEdit" name="editName">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>30</y>
+      <width>151</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="layoutDirection">
+     <enum>Qt::LeftToRight</enum>
+    </property>
+    <property name="placeholderText">
+     <string>название материала</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="editArea">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>30</y>
+      <width>151</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="layoutDirection">
+     <enum>Qt::LeftToRight</enum>
+    </property>
+    <property name="placeholderText">
+     <string>площадь поры</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="editAreaDev">
+    <property name="geometry">
+     <rect>
+      <x>330</x>
+      <y>30</y>
+      <width>151</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="layoutDirection">
+     <enum>Qt::LeftToRight</enum>
+    </property>
+    <property name="placeholderText">
+     <string>откл. от площ.</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="editPorosity">
+    <property name="geometry">
+     <rect>
+      <x>490</x>
+      <y>30</y>
+      <width>151</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="layoutDirection">
+     <enum>Qt::LeftToRight</enum>
+    </property>
+    <property name="placeholderText">
+     <string>пористость</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="editPorosityDev">
+    <property name="geometry">
+     <rect>
+      <x>650</x>
+      <y>30</y>
+      <width>151</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="layoutDirection">
+     <enum>Qt::LeftToRight</enum>
+    </property>
+    <property name="placeholderText">
+     <string>откл. от порист.</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnAdd">
+    <property name="geometry">
+     <rect>
+      <x>820</x>
+      <y>30</y>
+      <width>201</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="layoutDirection">
+     <enum>Qt::LeftToRight</enum>
+    </property>
+    <property name="text">
+     <string>Добавить</string>
+    </property>
+   </widget>
+   <widget class="QGroupBox" name="groupBox_2">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>70</y>
+      <width>1021</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="layoutDirection">
+     <enum>Qt::LeftToRight</enum>
+    </property>
+    <property name="title">
+     <string>Удалить запись</string>
+    </property>
+    <widget class="QLineEdit" name="editDeleteId">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>30</y>
+       <width>151</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="layoutDirection">
+      <enum>Qt::LeftToRight</enum>
+     </property>
+     <property name="placeholderText">
+      <string>номер записи</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btnDelete">
+     <property name="geometry">
+      <rect>
+       <x>820</x>
+       <y>20</y>
+       <width>201</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="layoutDirection">
+      <enum>Qt::LeftToRight</enum>
+     </property>
+     <property name="text">
+      <string>Удалить</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QPushButton" name="btnDelete_2">
+    <property name="geometry">
+     <rect>
+      <x>820</x>
+      <y>150</y>
+      <width>201</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="layoutDirection">
+     <enum>Qt::LeftToRight</enum>
+    </property>
+    <property name="text">
+     <string>ОК</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
