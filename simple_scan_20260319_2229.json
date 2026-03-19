@@ -1,0 +1,14 @@
+{
+  "scan_target": "192.168.56.101",
+  "scan_time": "2026-03-19T22:29:24.697299",
+  "open_ports_count": 1,
+  "results": {
+    "192.168.56.101": {
+      "53": {
+        "state": "open",
+        "service": "dns",
+        "version": ""
+      }
+    }
+  }
+}
